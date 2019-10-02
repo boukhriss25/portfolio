@@ -1,0 +1,55 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.banner1 {
+  min-width: 300px;
+  margin: 0 auto;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 60px;
+  display: flex;
+  align-items: flex-end;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.wallpaperup.com/uploads/wallpapers/2015/09/04/799481/44f273005836a444606dd743aa849614.jpg)
+}
+
+.bannerText h1 {
+  color: white;
+  font-size: 72px;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.text-highlight {
+  color: blue;
+}
+
+.about {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 60px;
+  height: 100vh;
+}
+
+.about-title h1 {
+  padding: 10px 0px;
+  font-size: 72px;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.about-container {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text p {
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.about-text {
+  padding-left: 20px;
+  width: 50vw;
+}
